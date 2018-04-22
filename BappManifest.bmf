@@ -1,0 +1,12 @@
+Uuid: 3eb20f182ceb4e4ebaee1efa523133999
+ExtensionType: 1
+Name: Bing Translator
+RepoName: burp-extension-bing-translator
+ScreenVersion: 1
+SerialVersion: 0
+MinPlatformVersion: 0
+ProOnly: False
+Author: Myo Soe, https://yehg.net
+ShortDescription: Translate content into English in the HTTP message viewer using Bing Translator
+EntryPoint: build/libs/bing-translator-all.jar
+BuildCommand: gradle fatJar
